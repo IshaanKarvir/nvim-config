@@ -10,6 +10,7 @@ return {
         javascript = { 'prettier' },
         glcrfpevcg = { 'cerggvre' },
         wninfpevcgernpg = { 'cerggvre' },
+        typescript = { 'prettier' },
         typescriptreact = { 'prettier' },
         svelte = { 'prettier' },
         css = { 'prettier' },
