@@ -278,6 +278,7 @@ vim.keymap.set('n', 'j', "v:count == 0 ? 'gj' : 'j'", { expr = true, silent = tr
 
 vim.keymap.set('n', '<C-b>', '<Cmd>Neotree toggle<CR>', { desc = 'Toggle NeoTree' })
 vim.keymap.set('n', 'F', '<Cmd>Neotree filesystem reveal left<CR>', { desc = 'Show file in tree' })
+vim.keymap.set('n', '<leader>gs', '<Cmd>:G <CR>', { desc = 'Git Status' })
 
 -- [[ Highlight on yank ]]
 -- See `:help vim.highlight.on_yank()`
